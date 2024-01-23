@@ -2,7 +2,6 @@ import SocialNetworks from './SocialNetworks'
 import image_self from '../imgs/matheus-image.svg'
 import '../styles/components/sidebar.sass'
 import InformationContainer from './InformationContainer'
-import resumePDF from '../../../../matheus/CurriculoMatheus01-24.pdf'
 
 const Sidebar = () => {
 
@@ -12,7 +11,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor</p>
       <SocialNetworks/>
       <InformationContainer/>
-      <a href={resumePDF} download='CurriculoMatheus01-24.pdf' className="btn">Download curriculo</a>
+      <a href='https://drive.google.com/file/d/1vwtvRg9Htap3mFqV4DdVlAe5AusPZ7nA/view?usp=sharing' target='_blank' className="btn">Download curriculo</a>
         
     </aside>
   )
